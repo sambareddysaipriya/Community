@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{ 
+    background-color: rgb(255, 216, 165);
+}
+.main{
+    display:flex;
+    width:100%;
+    height:100vh;
+    background-image: url('./images/bg.avif');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.738);
+    width: 100%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.selection{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.selection a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.selection a:hover{
+    color: orange;
+    font-weight: bold;
+}
+.sign{
+    width: 25%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.sign a:hover{
+    color: black;
+    font-weight: bold;
+}
+.down{
+    height: 70%;
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    font-size: 90%;
+    padding-left:10%;
+    overflow: hidden;
+}
+.left button{
+    background-color: green;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 100px;
+    padding: 3px;
+    display: flex;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.left button:hover{
+    box-shadow: 3px 3px 9px;
+}
+.left button:active{
+    background-color: black;
+}
+.right{
+    display: flex;
+    width: 40%;
+}
+.footer{
+    display: flex;
+    height: 20%;
+    width: 96%;
+    flex-direction: column;
+    margin-left:2%;
+    margin-right: 2%;
+    background-color: rgba(255, 255, 255, 0.284);
+}
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
